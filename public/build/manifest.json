@@ -1,0 +1,25 @@
+{
+  "public/fonts/ibm-plex-arabic-text-a438898370/ArbFonts/ArbFONTS-IBMPlexArabic-Text.ttf": {
+    "file": "assets/ArbFONTS-IBMPlexArabic-Text-DzkITPN5.ttf",
+    "src": "public/fonts/ibm-plex-arabic-text-a438898370/ArbFonts/ArbFONTS-IBMPlexArabic-Text.ttf"
+  },
+  "public/fonts/noor-f28caf6300/ArbFonts/ArbFONTS-AGCRegular.ttf": {
+    "file": "assets/ArbFONTS-AGCRegular-BN4dOxsC.ttf",
+    "src": "public/fonts/noor-f28caf6300/ArbFonts/ArbFONTS-AGCRegular.ttf"
+  },
+  "public/fonts/shekari/shekari.ttf": {
+    "file": "assets/shekari-BqbufyqS.ttf",
+    "src": "public/fonts/shekari/shekari.ttf"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CzqdbDH3.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-l0sNRNKZ.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}

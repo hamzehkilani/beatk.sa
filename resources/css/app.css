@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "noor";
+    src: url("/public/fonts/noor-f28caf6300/ArbFonts/ArbFONTS-AGCRegular.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBM";
+    src:url("/public/fonts/ibm-plex-arabic-text-a438898370/ArbFonts/ArbFONTS-IBMPlexArabic-Text.ttf")
+    format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "shekari";
+    src: url("/public/fonts/shekari/shekari.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+/* In your Tailwind custom CSS file (e.g., styles.css or tailwind.config.css) */
+
+body {
+    font-family: "MyCustomFont", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 2px;
+}
+
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2461A9;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #458bdb;
+}
+.custom-border {
+    -webkit-text-stroke: 3px rgba(255, 255, 255, 0.356);
+    color: transparent;
+}
